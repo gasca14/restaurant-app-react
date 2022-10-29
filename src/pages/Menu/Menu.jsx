@@ -1,5 +1,4 @@
 import '../Menu/Menu.css'
-import {Link,NavLink} from 'react-router-dom'
 
 function Menu() {
     return (
@@ -34,7 +33,7 @@ function Menu() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval={10000}>
-                            <img src="./images/ramen3.jpg" className="d-block w-100" alt="..." />
+                            <img src="./images/ramen3.jpg" className="d-block w-100" alt="ramen" />
                             <div className="carousel-caption  d-md-block">
                                 <h2 className="princ">Ramen</h2>
                                 <p>  Gracias, en parte, al anime y el manga, el ramen se ha convertido en
@@ -45,7 +44,7 @@ function Menu() {
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
-                            <img src="./images/sashimi.jpg" className="d-block w-100" alt="..." />
+                            <img src="./images/sashimi.jpg" className="d-block w-100" alt="sashimi" />
                             <div className="carousel-caption d-md-block">
                                 <h2 className="princ">Sashimi</h2>
                                 <p>El sashimi es un tipo de corte de pescado y marisco muy
@@ -55,7 +54,7 @@ function Menu() {
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
-                            <img src="./images/makis.jpg" className="d-block w-100" alt="..." />
+                            <img src="./images/makis.jpg" className="d-block w-100" alt="maki" />
                             <div className="carousel-caption  d-md-block">
                                 <h2 className="princ">Makis</h2>
                                 <p>En japonés la palabra “maki” significa enrollado y suele designar
@@ -93,56 +92,47 @@ function Menu() {
                             <img src="/images/makis.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
                                 <h5 className="card-title">Maki</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                     Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <Link className="nav-link active" to="/maki"><a className="btn btn-primary">
-                                    Go somewhere
-                                </a></Link>
+                                <p id='price'>$200</p>
+
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 ">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                     
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                     
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -153,56 +143,42 @@ function Menu() {
                             <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img"/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                     Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 ">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -213,56 +189,43 @@ function Menu() {
                             <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img"/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                     Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 ">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                     
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="..." />
+                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
-                                <p className="card-text text-primary">
+                                <p id='ingredientes'>
                                 Aqui deberia ir el nombre e ingredientes del platillo.
                                 </p>
-                                <a href="#" className="btn btn-primary">
-                                    Go somewhere
-                                </a>
                             </div>
                         </div>
                     </div>

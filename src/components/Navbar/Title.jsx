@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import {Link,NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 function Title(props) {
 
     return (
-        <Link className="navbar-brand" to="/home">
+        <NavLink className="nav-link" to="/home">
             {props.name}
-        </Link>
+        </NavLink>
     );
 }
 

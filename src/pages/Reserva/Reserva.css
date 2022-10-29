@@ -5,9 +5,7 @@ form{
   margin-top: 90px;
   font-size: 30px;
 }
-#lista{
-  font-size: 30px;
-}
+
 
 @media screen and (max-width: 768px){
     form{

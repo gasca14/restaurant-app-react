@@ -2,3 +2,19 @@
 a{
     font-family: 'Abyssinica SIL', serif;
 }
+
+
+#nav a{
+    color: whitesmoke;
+  }
+   /* #nav a:hover{
+    background-color: lightgray;
+    border-radius: 8px;
+    color: black;
+   } */
+  /* Add a color to the active/current link */
+#nav a.active {
+    background-color: #04AA6D;
+    border-radius: 4px;
+    color: white;
+  }
