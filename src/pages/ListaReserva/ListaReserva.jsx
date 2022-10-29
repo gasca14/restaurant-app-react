@@ -1,15 +1,33 @@
 import '../ListaReserva/ListaReserva.css'
-// import {db} from '../firebase'
+import { collection, onSnapshot} from 'firebase/firestore' 
+import { db } from '../../firebase';
+import { useState,useEffect } from 'react';
+
 
 function ListaReserva() {
 
-   
+    const [datos,setDatos] = useState([])
+
+    const getData = () =>{
+
+        onSnapshot(collection(db,"clientes"),(querySnapshot)=>{
+            setDatos(querySnapshot.docs.map(doc =>{
+                return{...doc.data()}
+            }))
+        })
+    }
+
+    useEffect(() => {
+        getData()
+    }, []) 
+
     return (
-        <>
+        <>  
             <div className='offset-md-3 col-md-6' id='tabla'>
                 <div className='text-center' id='lista'>
                     Lista de espera
                 </div>
+                {/* <code>{JSON.stringify(datos)}</code> */}
                 <table className="table table-striped table-hover table-bordered mt-4">
                     <thead className='table-secondary'>
                         <tr>
@@ -21,7 +39,7 @@ function ListaReserva() {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* {
+                        {
                         datos.map((cliente,index)=>{
                             return(
 
@@ -34,7 +52,7 @@ function ListaReserva() {
                                 </tr>
                             )
                         })
-                    } */}
+                    }
                     </tbody>
                 </table>
             </div>
