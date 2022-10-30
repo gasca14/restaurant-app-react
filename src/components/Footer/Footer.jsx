@@ -8,7 +8,7 @@ function Footer() {
                 <div>
                     <h3>Nosotros</h3>
                     <ul>
-                        <li><Link to="*" target={"_top"}>Acerca de</Link></li>
+                        <li><Link className="nav-link active" to="*" >Acerca de</Link></li>
                         <li><Link className="nav-link active" to="*">Sucursales</Link></li>
                         <li><Link className="nav-link active" to="*">Promociones en sucursales</Link></li>
                     </ul>
