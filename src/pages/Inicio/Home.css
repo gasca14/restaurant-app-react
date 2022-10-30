@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+#portada {
+    margin-top: 3rem;
+    width: 100%;
+    height: 35rem;
+}
+
+#portada2{
+    width: 25rem;
+    height: 37rem;
+}
+#text{
+    color: black;
+    font-family: 'Abyssinica SIL', serif;
+}
+#contacto{
+    margin-top: 8rem;
+}
+#destacado{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+@media screen and (max-width: 800px){
+        #portada2{
+            width: 90%;
+        }
+    }
+
+@media screen and (max-width: 480px){
+    #portada{
+        height: 250px;
+    }
+    #portada2{
+        margin-top: 70px;
+        width: 90%;
+        height: 90%;
+    }
+}   

@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 
 .card-img-top{
     height: 250px;
 }
+
 img{
     height: 450px;
 }
@@ -10,11 +12,18 @@ img{
     font-family:'Abyssinica SIL', serif;
     color: white;
 }
+#titulo{
+    font-family: 'Abyssinica SIL', serif;
+
+}
 #ingredientes{
     color: black;
+    font-family: 'Abyssinica SIL', serif;
+
 }
 #price{
     color: black;
+    
 }
 p{
     font-family:'Abyssinica SIL', serif;

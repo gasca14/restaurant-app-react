@@ -35,51 +35,58 @@ const saveForm = async (event) =>{
 }
 
     return (
-        // <h1 className="text-center" style={{marginTop:"150px"}}>Aqui deberia ir la reserva</h1> 
+        
         <>  
     
         <div id='cliente' className="offset-3 col-md-6 text-center">
-            Agregar cliente
+            Formulario de reservacion
         </div>
             {/* <code>{JSON.stringify(form)}</code> */}
             <form onSubmit={saveForm}>
                 <div className="offset-3 col-md-6">
                     <div className="form-group">
-                        <label htmlFor="exampleFormControlInput1">Nombre</label>
+                        <label id='etiqueta'>Nombre</label>
                         <input
                             type="text"
                             className="form-control"
                             name='nombre'
-                            placeholder="ingresa tu nombre"
+                            placeholder="Ingrese su nombre"
                             onChange={handleInputChange}
+                            required
                         />
                     </div>
                     <div className="form-group mt-2">
-                        <label htmlFor="exampleFormControlInput1">Cantidad de personas</label>
+                        <label id='etiqueta'>Cantidad</label>
                         <input
                             type="number"
                             className="form-control"
                             name='cantidad'
-                            placeholder="ingresa la cantidad"
+                            placeholder="Ingrese la cantidad de comensales"
                             onChange={handleInputChange}
+                            required
+
                         />
                     </div>
                     <div className="form-group mt-2">
-                        <label htmlFor="exampleFormControlInput1">Fecha</label>
+                        <label id='etiqueta'>Fecha</label>
                         <input
                             type="date"
                             className="form-control"
                             name='fecha'
                             onChange={handleInputChange}
+                            required
+                            
                         />
                     </div>
                     <div className="form-group mt-2">
-                        <label htmlFor="exampleFormControlInput1">Hora</label>
+                        <label id='etiqueta'>Hora</label>
                         <input
                             type="time"
                             className="form-control"
                             name='hora'
                             onChange={handleInputChange}
+                            required
+
                         />
                     </div>
                     <div className="mt-3">
@@ -87,6 +94,28 @@ const saveForm = async (event) =>{
                     </div>
                 </div>
             </form>
+
+            {/* <form >
+          <div className='offset-3 col-md-6'>
+            <div className='form-group'>
+              <label>Nombre</label>
+              <input className="form-control" type="text" placeholder="Ingresa tu nombre" name="nombre" required />
+            </div>
+            <div className='form-group mt-3'>
+              <label>Cantidad</label>
+              <input className="form-control" type="number" placeholder="Ingresa la cantidad"  name="cantidad" required />
+            </div>
+            <div className='form-group mt-3'>
+              <label>Fecha</label>
+              <input className="form-control" type="date"  name="fecha" required />
+            </div>
+            <div className='form-group mt-3'>
+              <label>Hora</label>
+              <input className="form-control" type="time" name="hora" required />
+            </div>
+            <button className="btn btn-primary mt-4" type="submit">Agregar</button>
+          </div>
+        </form> */}
         </>
     );
 }

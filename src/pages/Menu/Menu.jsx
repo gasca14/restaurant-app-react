@@ -40,7 +40,6 @@ function Menu() {
                                     uno de los platos más populares de la cocina nipona. ¡Y menos mal,
                                     porque está buenísimo y es especialmente reconfortante cuando hace
                                     frío!</p>
-                                <button className="btn btn-primary">Ver mas</button>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
@@ -50,7 +49,6 @@ function Menu() {
                                 <p>El sashimi es un tipo de corte de pescado y marisco muy
                                     característico de la cocina nipona. Es habitual servir los trozos
                                     con salsa de soja, jengibre y wasabi, y en ocasiones con vegetales.</p>
-                                <button className="btn btn-primary">Ver mas</button>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
@@ -61,7 +59,6 @@ function Menu() {
                                     esos rollos de alga nori rellenos de arroz sushi y de verduras y / o
                                     pescado. Un maki tradicional, una vez enrollado, se suele cortar en
                                     8 porciones, lo que hace que tenga un cierto tipo de grosor.</p>
-                                <button className="btn btn-primary">Ver mas</button>
                             </div>
                         </div>
                     </div>
@@ -87,145 +84,155 @@ function Menu() {
             </main>
             <div className="container-fluid mt-5">
                 <div className="row">
-                    <div className="col-lg-3 col-md-4">
+                    <h3 id='titulo'>Entradas</h3 >
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="/images/makis.jpg" className="card-img-top" alt="img"/>
+                            <img src="/images/entradas/surimirelleno.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
-                                <h5 className="card-title">Maki</h5>
+                                <h5 className="card-title">Kaniwa</h5>
                                 <p id='ingredientes'>
-                                    Aqui deberia ir el nombre e ingredientes del platillo.
+                                    Surimi relleno de queso crema,empanizado acompañado con aderezo de la casa.
                                 </p>
-                                <p id='price'>$200</p>
+                                <p id='price'>$50</p>
 
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 ">
+                    <div className="col-lg-3 col-md-6 ">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/entradas/tempura.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Tempura de verduras</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
+                                Mix de verduras al vapor cubiertas con tempura y aderezo.   
                                 </p>
-                                
+                                <p id='price'>$65</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/entradas/brochetas.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Yakitori</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
+                                3 deliciosas brochetas de pollo bañadas en salsa teriyaki.
                                 </p>
+                                <p id='price'>$60</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/entradas/queso.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Kushi-agues</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
+                                6 brochetas de queso asadero empanizadas con el delicioso aderezo de la casa.
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-4">
-                        <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p id='ingredientes'>
-                                    Aqui deberia ir el nombre e ingredientes del platillo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4 ">
-                        <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4">
-                        <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4">
-                        <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                </p>
+                                <p id='price'>$75</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-lg-3 col-md-4">
+                    <h3 id='titulo'>Makis</h3 >
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img"/>
+                            <img src="/images/makis/salm.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Smoke-roll</h5>
                                 <p id='ingredientes'>
-                                    Aqui deberia ir el nombre e ingredientes del platillo.
+                                    pepino,aguacate,philadelphia,fresco salmón ahumado.
                                 </p>
+                                <p id='price'>$100</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 ">
+                    <div className="col-lg-3 col-md-6 ">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/makis/anguila.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Kamicoco</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
+                                camarón empanizado, philadelphia,zanahoria,aguacate,empanizado con coco y bañado en salsa de anguila.
                                 </p>
+                                <p id='price'>$100</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/makis/empanizado.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Sake-yake</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
-                                    
+                                salmón,queso crema,verduras,crujiente empanzado.
                                 </p>
+                                <p id='price'>$100</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="card">
-                            <img src="https://picsum.photos/seed/dos/500" className="card-img-top" alt="img" />
+                            <img src="/images/makis/res.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Kushiyaki</h5>
                                 <p id='ingredientes'>
-                                Aqui deberia ir el nombre e ingredientes del platillo.
+                                res,queso crema,aguacate,cujiente empanizado.
                                 </p>
+                                <p id='price'>$100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row mt-5">
+                    <h3 id='cab'>Postres</h3 >
+                    <div className="col-lg-3 col-md-6">
+                        <div className="card">
+                            <img src="/images/postres/Tempura-helado.jpg" className="card-img-top" alt="img"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Oreo-tempura</h5>
+                                <p id='ingredientes'>
+                                    galletas oreo cubiertas con tempura, acompañadas de helado.
+                                </p>
+                                <p id='price'>$50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 ">
+                        <div className="card">
+                            <img src="/images/postres/brownies.jpeg" className="card-img-top" alt="img" />
+                            <div className="card-body">
+                                <h5 className="card-title">Brownilla</h5>
+                                <p id='ingredientes'>
+                                brownies de chocolate y helado de vainilla.
+                                </p>
+                                <p id='price'>$50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="card">
+                            <img src="/images/postres/helado.jpg" className="card-img-top" alt="img" />
+                            <div className="card-body">
+                                <h5 className="card-title">Helado-tempura</h5>
+                                <p id='ingredientes'>
+                                bola de helado con una crujiente cubierta de tempura "caliente por fuera, frio por dentro".
+                                </p>
+                                <p id='price'>$50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="card">
+                            <img src="/images/postres/banana.jpeg" className="card-img-top" alt="img" />
+                            <div className="card-body">
+                                <h5 className="card-title">Banana split</h5>
+                                <p id='ingredientes'>
+                                plátano acompañado con 3 bolas de helado, bañadas con mermelada de fresa y chocolate.
+                                </p>
+                                <p id='price'>$50</p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
 #lista{
     font-size: 2rem;
+    font-family: 'Abyssinica SIL', serif;
 }
 #tabla{
     margin-top: 100px;
+}
+#encab{
+    font-family: 'Abyssinica SIL', serif;
+
 }

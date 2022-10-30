@@ -28,8 +28,9 @@ function ListaReserva() {
                     Lista de espera
                 </div>
                 {/* <code>{JSON.stringify(datos)}</code> */}
+                <div className="table-responsive">
                 <table className="table table-striped table-hover table-bordered mt-4">
-                    <thead className='table-secondary'>
+                    <thead id='encab' className='table-secondary'>
                         <tr>
                             <th>#</th>
                             <th>Nombre</th>
@@ -55,6 +56,7 @@ function ListaReserva() {
                     }
                     </tbody>
                 </table>
+                </div>
             </div>
         </>
     );
