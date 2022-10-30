@@ -187,7 +187,7 @@ function Menu() {
                     </div>
                 </div>
                 <div className="row mt-5">
-                    <h3 id='cab'>Postres</h3 >
+                    <h3 id='titulo'>Postres</h3 >
                     <div className="col-lg-3 col-md-6">
                         <div className="card">
                             <img src="/images/postres/Tempura-helado.jpg" className="card-img-top" alt="img"/>
