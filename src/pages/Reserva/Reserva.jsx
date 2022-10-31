@@ -3,6 +3,7 @@ import { collection,addDoc} from 'firebase/firestore'
 import { useState } from 'react'
 import { db } from '../../firebase';
 import Swal from 'sweetalert2'
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -15,6 +16,7 @@ function Reserva() {
         hora:''
     })
 
+    const navigate = useNavigate()
     const handleInputChange =(event) =>{
         setForm({
             ...form,
@@ -30,7 +32,8 @@ const saveForm = async (event) =>{
         title: 'Mensaje',
         text: 'Registro de reservacion exitosa!',
       }).then(()=>{
-          window.location.href = "/ListaReserva"
+        //   window.location.href = "/ListaReserva"
+          navigate("/ListaReserva")
       })
 }
 
