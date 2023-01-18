@@ -25,12 +25,12 @@ function ListaReserva() {
         <>  
             <div className='offset-md-3 col-md-6' id='tabla'>
                 <div className='text-center' id='lista'>
-                    Lista de espera
+                    Lista de reservación
                 </div>
                 {/* <code>{JSON.stringify(datos)}</code> */}
                 <div className="table-responsive">
-                <table className="table table-striped table-hover table-bordered mt-4">
-                    <thead id='encab' className='table-secondary'>
+                <table className="table table-striped table-hover table-info table-bordered mt-2">
+                    <thead>
                         <tr>
                             <th>#</th>
                             <th>Nombre</th>

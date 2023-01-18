@@ -9,13 +9,12 @@ function Home() {
         <img id='portada' src="./images/portada.jpg" alt="portada" />
       </header>
       {/* Page content */}
-      <div className="container">
-
+      <div  className="container">
         <div className="row">
-          <div className="col-md-6 mt-5">
+          <div className="col-md-6 mt-3">
             <img id='portada2' src="./images/portada2.jpg" alt="hola" />
           </div>
-          <div className="col-md-6 mt-5">
+          <div className="col-md-6 mt-3">
             <h1 id='destacado'>Sobre Oriental Loredo</h1>
             <p id='text'>Tradicion desde 1850</p>
             <p id='text'>Or Loredo tiene sus inicios desde el nucleo de la familia a la cual siempre le ha encantado la convivencia familiar, el calor de hogar, pasar momentos agradables en familia.</p>

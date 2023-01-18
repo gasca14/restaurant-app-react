@@ -33,7 +33,7 @@ function Menu() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval={10000}>
-                            <img src="./images/ramen3.jpg" className="d-block w-100" alt="ramen" />
+                            <img id='ramen' src="./images/ramen3.jpg" className="d-block w-100" alt="ramen" />
                             <div className="carousel-caption  d-md-block">
                                 <h2 className="princ">Ramen</h2>
                                 <p>  Gracias, en parte, al anime y el manga, el ramen se ha convertido en
@@ -86,15 +86,14 @@ function Menu() {
                 <div className="row">
                     <h3 id='titulo'>Entradas</h3 >
                     <div className="col-lg-3 col-md-6">
-                        <div className="card">
+                        <div className="card" >
                             <img src="/images/entradas/surimirelleno.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
-                                <h5 className="card-title">Kaniwa</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Kaniwa</h5>
+                                <p id='ingredientes' className='text-center'>
                                     Surimi relleno de queso crema,empanizado acompañado con aderezo de la casa.
                                 </p>
-                                <p id='price'>$50</p>
-
+                                <p id='price' className='text-center'>$50.00</p>
                             </div>
                         </div>
                     </div>
@@ -102,11 +101,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/entradas/tempura.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Tempura de verduras</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Tempura de verduras</h5>
+                                <p id='ingredientes' className='text-center'>
                                 Mix de verduras al vapor cubiertas con tempura y aderezo.   
                                 </p>
-                                <p id='price'>$65</p>
+                                <p id='price'className='text-center'>$65.00</p>
                             </div>
                         </div>
                     </div>
@@ -114,11 +113,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/entradas/brochetas.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Yakitori</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Yakitori</h5>
+                                <p id='ingredientes' className='text-center'>
                                 3 deliciosas brochetas de pollo bañadas en salsa teriyaki.
                                 </p>
-                                <p id='price'>$60</p>
+                                <p id='price' className='text-center'>$60.00</p>
                             </div>
                         </div>
                     </div>
@@ -126,11 +125,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/entradas/queso.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Kushi-agues</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Kushi-agues</h5>
+                                <p id='ingredientes' className='text-center'>
                                 6 brochetas de queso asadero empanizadas con el delicioso aderezo de la casa.
                                 </p>
-                                <p id='price'>$75</p>
+                                <p id='price' className='text-center'>$75.00</p>
                             </div>
                         </div>
                     </div>
@@ -141,11 +140,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/makis/salm.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
-                                <h5 className="card-title">Smoke-roll</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Smoke-roll</h5>
+                                <p id='ingredientes' className='text-center'>
                                     pepino,aguacate,philadelphia,fresco salmón ahumado.
                                 </p>
-                                <p id='price'>$100</p>
+                                <p id='price' className='text-center'>$100.00</p>
                             </div>
                         </div>
                     </div>
@@ -153,11 +152,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/makis/anguila.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Kamicoco</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Kamicoco</h5>
+                                <p id='ingredientes' className='text-center'>
                                 camarón empanizado, philadelphia,zanahoria,aguacate,empanizado con coco y bañado en salsa de anguila.
                                 </p>
-                                <p id='price'>$100</p>
+                                <p id='price' className='text-center'>$100.00</p>
                             </div>
                         </div>
                     </div>
@@ -165,11 +164,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/makis/empanizado.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Sake-yake</h5>
-                                <p id='ingredientes'>
-                                salmón,queso crema,verduras,crujiente empanzado.
+                                <h5 className="card-title text-center">Sake-yake</h5>
+                                <p id='ingredientes' className='text-center'>
+                                salmón,queso crema,verduras,crujiente empanizado.
                                 </p>
-                                <p id='price'>$100</p>
+                                <p id='price' className='text-center'>$100.00</p>
                             </div>
                         </div>
                     </div>
@@ -177,11 +176,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/makis/res.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Kushiyaki</h5>
-                                <p id='ingredientes'>
-                                res,queso crema,aguacate,cujiente empanizado.
+                                <h5 className="card-title text-center">Kushiyaki</h5>
+                                <p id='ingredientes' className='text-center'>
+                                res,queso crema,aguacate,crujiente empanizado.
                                 </p>
-                                <p id='price'>$100</p>
+                                <p id='price' className='text-center'>$100.00</p>
                             </div>
                         </div>
                     </div>
@@ -192,11 +191,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/postres/Tempura-helado.jpg" className="card-img-top" alt="img"/>
                             <div className="card-body">
-                                <h5 className="card-title">Oreo-tempura</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Oreo-tempura</h5>
+                                <p id='ingredientes' className='text-center'>
                                     galletas oreo cubiertas con tempura, acompañadas de helado.
                                 </p>
-                                <p id='price'>$50</p>
+                                <p id='price' className='text-center'>$50.00</p>
                             </div>
                         </div>
                     </div>
@@ -204,11 +203,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/postres/brownies.jpeg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Brownilla</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Brownilla</h5>
+                                <p id='ingredientes' className='text-center'>
                                 brownies de chocolate y helado de vainilla.
                                 </p>
-                                <p id='price'>$50</p>
+                                <p id='price' className='text-center'>$50.00</p>
                             </div>
                         </div>
                     </div>
@@ -216,11 +215,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/postres/helado.jpg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Helado-tempura</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Helado-tempura</h5>
+                                <p id='ingredientes' className='text-center'>
                                 bola de helado con una crujiente cubierta de tempura "caliente por fuera, frio por dentro".
                                 </p>
-                                <p id='price'>$50</p>
+                                <p id='price' className='text-center'>$50.00</p>
                             </div>
                         </div>
                     </div>
@@ -228,11 +227,11 @@ function Menu() {
                         <div className="card">
                             <img src="/images/postres/banana.jpeg" className="card-img-top" alt="img" />
                             <div className="card-body">
-                                <h5 className="card-title">Banana split</h5>
-                                <p id='ingredientes'>
+                                <h5 className="card-title text-center">Banana split</h5>
+                                <p id='ingredientes' className='text-center'>
                                 plátano acompañado con 3 bolas de helado, bañadas con mermelada de fresa y chocolate.
                                 </p>
-                                <p id='price'>$50</p>
+                                <p id='price' className='text-center'>$50.00</p>
                             </div>
                         </div>
                     </div>

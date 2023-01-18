@@ -41,7 +41,7 @@ const saveForm = async (event) =>{
         
         <>      
         <div id='cliente' className="offset-3 col-md-6 text-center">
-            Formulario de reservacion
+            Reservación
         </div>
             <form onSubmit={saveForm}>
                 <div className="offset-3 col-md-6">

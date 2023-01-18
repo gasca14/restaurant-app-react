@@ -10,11 +10,11 @@ function AppRouter() {
     return ( 
         <>
             <Routes> {/* Rutas definidas*/}
-                <Route path='home' element={<Home />}/>
-                <Route path='menu' element={<Menu />}/>
-                <Route path='reserva' element={<Reserva />}/>
-                <Route path='ListaReserva' element={<ListaReserva />}/>
-                <Route path='404' element={<NotFound />}/>
+                <Route path='/home' element={<Home />}/>
+                <Route path='/menu' element={<Menu />}/>
+                <Route path='/reserva' element={<Reserva />}/>
+                <Route path='/ListaReserva' element={<ListaReserva />}/>
+                <Route path='/404' element={<NotFound />}/>
 
                     
                 {/*Redireccion */}

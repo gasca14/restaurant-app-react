@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 
-.card-img-top{
-    height: 250px;
-}
 
 img{
-    height: 450px;
+    height: 385px;
 }
+
+.card-img-top{
+    height: 240px;
+}
+.card{
+    height: 490px;
+}
+
 .princ{
     font-family:'Abyssinica SIL', serif;
     color: white;
@@ -26,10 +31,18 @@ img{
     
 }
 p{
-    font-family:'Abyssinica SIL', serif;
+    font-famiy:'Abyssinica SIL', serif;
     color: white;
     font-size: 19px;
 }
+
+
+@media screen and (max-width: 800px){
+        .card{
+            margin-top: 2rem;
+        }
+  
+  }
 @media screen and (max-width: 480px){
     img{
         margin-top: 55px;
@@ -38,5 +51,9 @@ p{
     p{
         font-size: 12px;
     }
+    .card{
+        margin-top: 3rem;
+    }
+    
   
   }

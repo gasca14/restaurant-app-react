@@ -4,13 +4,13 @@
 
 .pie-pagina{
     width: 100%;
-    margin-top: 190px;
+    margin-top: 100px;
     background-color: black;
     color: #EEEEEE;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 250px;    
+    height: 220px;    
     border-radius: 2px;
   }
   .pie-pagina h3{
@@ -78,7 +78,7 @@
   /* copyright */
   .derechos{
     position: absolute;
-    margin-top: 210px;
+    margin-top: 190px;
   }
 
   
