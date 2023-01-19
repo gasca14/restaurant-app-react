@@ -30,9 +30,9 @@ function Footer() {
                 <div>
                     <h3>Siguenos</h3>
                     <div className="red-social">
-                        <a className="boton-e" href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i><p>Facebook</p></a>
-                        <a className="boton-e" href='https://web.whatsapp.com/' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-whatsapp"></i><p>Whatsapp</p></a>
-                        <a className="boton-e" href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i><p>Instagram</p></a>
+                        <a className="boton-e" href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-facebook"></i><p>Facebook</p></a>
+                        <a className="boton-e" href='https://web.whatsapp.com/' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-whatsapp"></i><p>Whatsapp</p></a>
+                        <a className="boton-e" href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-instagram"></i><p>Instagram</p></a>
                     </div>
                 </div>
                 <div className="derechos">

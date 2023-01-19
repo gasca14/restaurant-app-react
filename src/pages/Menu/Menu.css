@@ -3,7 +3,8 @@
 
 
 img{
-    height: 385px;
+    height: 400px;
+    /* object-fit: inherit; */
 }
 
 .card-img-top{

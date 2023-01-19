@@ -10,7 +10,7 @@
 
 #portada2{
     width: 25rem;
-    height: 33rem;
+    height: 31rem;
     border-radius: 25px;
     object-fit: cover;
 }
@@ -32,8 +32,8 @@
 
         #portada2{
             object-fit:inherit;
-            width: 21rem;
-            height: 17rem;
+            width: 19rem;
+            height: 34rem;
             border-radius: 4rem;
         }
     }
@@ -45,8 +45,8 @@
 
     #portada2{
         margin-top: 5px;
-        /* width: 25rem; */
-        height: 14rem;
+        height: 16rem;
         object-fit: contain;
     }
 }   
+ 
