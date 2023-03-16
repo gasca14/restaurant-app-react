@@ -92,7 +92,7 @@ function Reserva() {
                         />
                     </div>
                     <div className="mt-3">
-                        <button className="btn btn-outline-success" type="submit">Enviar</button>
+                        <button className="btn btn-outline-primary" type="submit">Enviar</button>
                     </div>
                 </div>
             </form>

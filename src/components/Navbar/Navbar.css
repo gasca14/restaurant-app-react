@@ -14,7 +14,7 @@ a{
    } */
   /* Add a color to the active/current link */
 #nav a.active {
-    background-color: #04AA6D;
+    background-color: #647AA3;
     border-radius: 1px;
     color: white;
   }

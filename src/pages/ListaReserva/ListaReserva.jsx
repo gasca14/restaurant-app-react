@@ -28,7 +28,7 @@ function ListaReserva() {
                 </div>
                 {/* <code>{JSON.stringify(datos)}</code>  */}
                 <div className="table-responsive">
-                    <table className="table table-striped table-hover table-info table-bordered mt-2">
+                    <table className="table table-striped table-hover table-primary table-bordered mt-2">
                         <thead>
                             <tr>
                                 <th>#</th>
