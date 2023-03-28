@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 
 
-img{
+#portada_menu{
     height: 400px;
     /* object-fit: inherit; */
 }
 
-.card-img-top{
-    height: 240px;
-}
 .card{
-    height: 490px;
+    margin-top: 2rem;
+    height: 450px;
+}
+.card-img-top{
+    height: 232px;
 }
 
 .princ{
@@ -32,29 +33,19 @@ img{
     
 }
 p{
-    font-famiy:'Abyssinica SIL', serif;
+    font-family: 'Abyssinica SIL', serif;
     color: white;
     font-size: 19px;
 }
 
 
-@media screen and (max-width: 800px){
-        .card{
-            margin-top: 2rem;
-        }
-  
-  }
 @media screen and (max-width: 480px){
-    img{
-        margin-top: 55px;
+    #portada_menu{
+        margin-top: 35px;
         height: 250px;
     }
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
-    .card{
-        margin-top: 3rem;
-    }
-    
   
   }

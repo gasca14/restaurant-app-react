@@ -33,7 +33,7 @@ function Menu() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval={10000}>
-                            <img id='ramen' src="./images/ramen3.jpg" className="d-block w-100" alt="ramen" />
+                            <img id='portada_menu' src="./images/ramen3.jpg" className="d-block w-100" alt="ramen" />
                             <div className="carousel-caption  d-md-block">
                                 <h2 className="princ">Ramen</h2>
                                 <p>  Gracias, en parte, al anime y el manga, el ramen se ha convertido en
@@ -43,7 +43,7 @@ function Menu() {
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
-                            <img src="./images/sashimi.jpg" className="d-block w-100" alt="sashimi" />
+                            <img id='portada_menu' src="./images/sashimi.jpg" className="d-block w-100" alt="sashimi" />
                             <div className="carousel-caption d-md-block">
                                 <h2 className="princ">Sashimi</h2>
                                 <p>El sashimi es un tipo de corte de pescado y marisco muy
@@ -52,7 +52,7 @@ function Menu() {
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval={10000}>
-                            <img src="./images/makis.jpg" className="d-block w-100" alt="maki" />
+                            <img id='portada_menu' src="./images/makis.jpg" className="d-block w-100" alt="maki" />
                             <div className="carousel-caption  d-md-block">
                                 <h2 className="princ">Makis</h2>
                                 <p>En japonés la palabra “maki” significa enrollado y suele designar
@@ -82,7 +82,7 @@ function Menu() {
                     </button>
                 </div>
             </main>
-            <div className="container-fluid mt-5">
+            <div className="p-4">
                 <div className="row">
                     <h3 id='titulo'>Entradas</h3 >
                     <div className="col-lg-3 col-md-6">
