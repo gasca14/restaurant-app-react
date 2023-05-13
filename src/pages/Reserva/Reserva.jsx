@@ -64,6 +64,8 @@ function Reserva() {
                         <label id='etiqueta'>Cantidad</label>
                         <input
                             type="number"
+                            min= '1'
+                            max='10'
                             className="form-control"
                             name='cantidad'
                             placeholder="Ingrese la cantidad de comensales"
@@ -75,6 +77,8 @@ function Reserva() {
                         <label id='etiqueta'>Fecha</label>
                         <input
                             type="date"
+                            min="2023-05-15"
+                            max="2023-12-31"
                             className="form-control"
                             name='fecha'
                             onChange={handleInputChange}
