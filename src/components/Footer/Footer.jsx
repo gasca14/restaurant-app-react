@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="derechos">
-                    <small>© 2024 Loredo. Todos los derechos reservados. </small>
+                    <small>© 2026 Loredo. Todos los derechos reservados. </small>
                 </div>
             </footer>
         </>
